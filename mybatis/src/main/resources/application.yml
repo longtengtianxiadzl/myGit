@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:8848/china
+    username: root
+    password: 123456
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+    auto-mapping-behavior: full
+    useGeneratedKeys: true
